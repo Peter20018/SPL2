@@ -5,12 +5,12 @@ regen = True
 eingabe1 = input("Hast du einen Regenschirm? Ja oder nein. ")
 
 if(eingabe1 == "ja"):
-    print("Gut das du einen Schirm dabei hast Geh jetzt nach draußen")
+    print("Gut das du einen Schirm dabei hast. Geh jetzt nach draußen")
     regen = False
 
 while(regen):
     print("Warte bis der Regen aufhört... ")
-    eingabe = input("Regnet es nocht?")
+    eingabe = input("Regnet es noch?")
 
     if (eingabe == "nein"):
         regen = False
